@@ -22,34 +22,34 @@ Skills set used:
 - Boosting 
 
 Library used: 
-!pip install mlxtend
-!pip install seaborn
-!pip install tensorflow
-import seaborn as sns
-!pip install openpyxl
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import cross_val_score
-from sklearn.linear_model import LogisticRegression
-import tensorflow as tf
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from sklearn.metrics import classification_report
-from sklearn.metrics import f1_score
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import BaggingClassifier
-from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
-from sklearn.ensemble import GradientBoostingClassifier
+- !pip install mlxtend
+- !pip install seaborn
+- !pip install tensorflow
+- import seaborn as sns
+- !pip install openpyxl
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import numpy as np
+- from sklearn.model_selection import train_test_split
+- from sklearn.neighbors import KNeighborsClassifier
+- from sklearn.metrics import accuracy_score
+- import matplotlib.pyplot as plt
+- from sklearn.preprocessing import MinMaxScaler
+- from sklearn.model_selection import cross_val_score
+- from sklearn.linear_model import LogisticRegression
+- import tensorflow as tf
+- import numpy as np
+- from sklearn.model_selection import train_test_split
+- from sklearn.preprocessing import MinMaxScaler
+- from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+- from tensorflow.keras.models import Sequential
+- from tensorflow.keras.layers import Dense
+- from sklearn.metrics import classification_report
+- from sklearn.metrics import f1_score
+- from sklearn.ensemble import RandomForestClassifier
+- from sklearn.ensemble import BaggingClassifier
+- from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
+- from sklearn.ensemble import GradientBoostingClassifier
 
 The data was obtained from Food Standards Australia and New Zealand: https://www.foodstandards.gov.au/science/monitoringnutrients/afcd/Pages/default.aspx
 
